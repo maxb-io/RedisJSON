@@ -35,8 +35,8 @@ jobs:
       - name: Checkout Redis
         uses: actions/checkout@v4
         with:
-          repository: redis/redis
-          ref: '7.2.1'
+          repository: maxb-io/redis
+          ref: 'RED-134818-maxb-supp-musle'
           path: redis
       - name: Build Redis
         working-directory: redis
